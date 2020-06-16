@@ -10,11 +10,11 @@ Run a docker container:
 docker run --name strongswan --privileged -v /mnt/sda3/strongswan/ipsec.d:/etc/ipsec.d -p 500:500/udp -p 4500:4500/udp xiaoqingfeng999/strongswan:5.8.4
 ```
 Notice:
-**/mnt/sda3/strongswan/ipsec.d** is an example, change to your path.
+**/mnt/sda3/strongswan/ipsec.d** is an example, change to your own path.
 
-ipsec.conf should be placed to **/mnt/sda3/strongswan/ipsec.d**/conf
-ipsec.secrets should be placed to **/mnt/sda3/strongswan/ipsec.d**
-strongswan.d directory should be placed to **/mnt/sda3/strongswan/ipsec.d**
++ ipsec.conf should be placed to **/mnt/sda3/strongswan/ipsec.d**/conf
++ ipsec.secrets should be placed to **/mnt/sda3/strongswan/ipsec.d**
++ strongswan.d directory should be placed to **/mnt/sda3/strongswan/ipsec.d**
 
 Pull docker image:
 ```
